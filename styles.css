@@ -1,0 +1,31 @@
+.stApp { 
+    background-image: url('https://images7.alphacoders.com/316/316735.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+}
+
+.stButton > button {
+    background: linear-gradient(135deg, #6fcaff2d, #882aa02c);  /* Degradado de colores */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.stButton > button:hover {
+    background: linear-gradient(135deg, #6fcaff, #2aa0a0);  /* Degradado de colores */
+    color: black;
+}
+
+.stNumberInput input, .stTextInput input {
+    background-color: rgb(248, 242, 255);
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
