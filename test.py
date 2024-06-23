@@ -6,7 +6,7 @@ import pandas as pd
 import streamlit as st
 
 # Cargar el modelo y el escalador
-model = load_model('modelo entrenado.keras')
+model = load_model('modelo entrenado2.keras')
 df = pd.read_csv('Bank Customer Churn Prediction.csv')
 df.dropna(inplace=True)
 X = df.drop(columns=['customer_id', 'churn'])
