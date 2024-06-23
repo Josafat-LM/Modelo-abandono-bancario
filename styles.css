@@ -1,5 +1,6 @@
 .stApp { 
-    background-image: url('https://images7.alphacoders.com/316/316735.jpg');
+    /*background-image: url('https://images7.alphacoders.com/316/316735.jpg');*/
+    background-color: black;
     background-size: cover;
     background-position: center;
     color: white;
