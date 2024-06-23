@@ -66,7 +66,7 @@ def preprocesar_datos_dataframe(df):
     return scaler.transform(df)
 
 # Cargar el modelo
-model = load_model('modelo entrenado.keras')
+model = tf.keras.models.load_model('modelo_entrenado.keras')
 
 def predecir_churn(user_data):
     prediction = model.predict(user_data)
@@ -137,3 +137,4 @@ else:
                     st.success(f"Probabilidad: {probability[0]:.2f}%")
         except ValueError:
             st.error("Por favor, ingrese valores válidos en todos los campos")
+
